@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Sweetest Cat Ever;
+    src: url(assets/Sweetest\ Cat\ Ever.ttf);
+}
+
+@font-face {
+    font-family: LiberationSans;
+    src: url(assets/LiberationSans-Regular.ttf);
+}
+
+body {
+    background-color: rgba(255, 249, 239, 1);
+    margin: 0;
+    font-family: LiberationSans, sans;
+}
+
+.navbar {
+    border-radius: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(111, 150, 209, 1);
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    margin-top: 15px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    font-family: Sweetest Cat Ever;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.nav-links a:hover {
+    color: rgba(0, 45, 163, 1);
+}
+
+.nav-right a {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.name-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgb(42, 35, 107);
+    display: flex;
+}
+
+
+.name-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.intro {
+    font-family: Sweetest Cat Ever;
+    font-size: 45px;
+    color: rgb(11, 41, 122);
+    text-shadow: 0 0 2px #000000;
+    padding-left: 10px
+}
+
+.sub-intro {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 0.5rem;
+}
+
+.page-break {
+    font-size: 30px;
+    color: rgb(11, 41, 122);
+    padding-top: 30px;
+    text-align: center;
+}
