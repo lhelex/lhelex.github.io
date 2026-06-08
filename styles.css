@@ -218,8 +218,8 @@ footer {
 .desc {
     color: #333;
     font-size: 25px;
-    padding-left: 8rem;
-    margin-bottom: 0.2rem;
+    padding-left: 300px;
+    padding-right: 300px;
     display: flex;
     text-align: center;
 }
