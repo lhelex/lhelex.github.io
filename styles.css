@@ -18,10 +18,23 @@
         scale: 1;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgba(255, 249, 239, 1);
     margin: 0;
     font-family: LiberationSans, sans;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(111, 150, 209, 1);
 }
 
 .navbar {
@@ -179,4 +192,19 @@ body {
     height: auto;
     border-radius: 5px;
     padding-bottom: 15px;
+}
+
+.footer-text {
+    font-size: 15px;
+    text-align: center;
+}
+
+.game-links {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(111, 150, 209, 1);
+    border-radius: 5px;
+    text-decoration: none;
 }
