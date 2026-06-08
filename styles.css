@@ -214,12 +214,3 @@ footer {
     border-radius: 5px;
     text-decoration: none;
 }
-
-.desc {
-    color: #333;
-    font-size: 25px;
-    padding-left: 300px;
-    padding-right: 300px;
-    display: flex;
-    text-align: center;
-}
