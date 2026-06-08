@@ -166,8 +166,8 @@ footer {
     animation-timeline: view();
     animation-range: entry 0% cover 25%;
     width: 650px;
+    height: auto;
     padding: 1rem;
-    max-width: 1550px;
     margin: 2rem auto;
     padding: 1rem;
     background-color: #fff;
